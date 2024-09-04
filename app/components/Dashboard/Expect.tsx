@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import EasyToUseImage from '@/public/assets/images/about/easy-to-use.avif'
-import CustomImage from '@/public/assets/images/about/customisable-templates.avif'
-import HighQuality from '@/public/assets/images/about/high-quality-exports.avif'
 import Link from "next/link";
 import LogoImage from '@/public/logo/Creatoor.svg'
+import CloneYourSelfImage from '@/public/assets/images/about/Clone.jpg'
+import CustomVideoStyleImage from '@/public/assets/images/about/VideoStyle.jpg'
+import HDDownloadsImage from '@/public/assets/images/about/HDDownloads.jpg'
 
 const ExpectComponent = () => {
 
@@ -48,7 +48,7 @@ const ExpectComponent = () => {
                             <div className="relative w-full">
                                 <Image
                                     alt="easy to use"
-                                    src={EasyToUseImage}
+                                    src={CloneYourSelfImage}
                                     width={500}
                                     height={300}
                                     className="mx-auto aspect-auto rounded-t-xl object-cover object-center"
@@ -68,7 +68,7 @@ const ExpectComponent = () => {
                             <div className="relative w-full">
                                 <Image
                                     alt="customisable templates"
-                                    src={CustomImage}
+                                    src={CustomVideoStyleImage}
                                     width={500}
                                     height={300}
                                     className="mx-auto aspect-auto rounded-t-xl object-cover object-center"
@@ -89,7 +89,7 @@ const ExpectComponent = () => {
                             <div className="relative w-full">
                                 <Image
                                     alt="high quality exports"
-                                    src={HighQuality}
+                                    src={HDDownloadsImage}
                                     width={500}
                                     height={300}
                                     className="mx-auto aspect-auto rounded-t-xl object-cover object-center"
