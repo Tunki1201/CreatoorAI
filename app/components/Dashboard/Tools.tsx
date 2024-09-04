@@ -6,7 +6,7 @@ import YoutubeImage from '@/public/assets/images/about/youtube.avif'
 
 export default function ToolsSection() {
     return (
-        <article className="mt-8 content-visibility-auto relative text-neutral-dark rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-[80%] bg-[#5169e4] mb-6">
+        <article className="mt-8 content-visibility-auto relative text-neutral-dark rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-[90%] bg-[#5169e4] mb-6">
             <div className="h-px w-full bg-[#353e3b] top-4 sm:top-6 md:top-8 absolute -z-0 left-0"></div>
             <div className="h-px w-full bg-[#353e3b] bottom-4 sm:bottom-6 md:bottom-8 absolute z-0 left-0"></div>
             <div className="w-full relative border-x border-[#353e3b]">
@@ -56,11 +56,10 @@ export default function ToolsSection() {
                         </div>
                         <h2 className="text-white text-3xl lg:text-4xl xl:text-5xl text-center w-11/12 max-w-3xl text-pretty mx-auto">
                             Repurpose an unlimited amount of content from social media
-                            Choose from wide array of platforms and sources to create viral-worthy content
+
                         </h2>
                         <p className="text-center w-[90%] max-w-lg mx-auto text-pretty ">
-                            Pick the right tool, provides your input, and you&apos;ll create a
-                            video in no time - customize it however you want.
+                            Choose from wide array of platforms and sources to create viral-worthy content
                         </p>
                     </div>
                     <div className="diagonal-pattern w-full border-y border-[#353e3b] my-12">

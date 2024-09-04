@@ -71,7 +71,7 @@ const FAQSection: React.FC = () => {
     ];
 
     return (
-        <article className="content-visibility-auto rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-[80%] bg-[#5169e4]">
+        <article className="content-visibility-auto rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-[90%] bg-[#5169e4]">
             <div className="w-full relative border-x border-[#353e3b]">
                 {/* Decorative Dots */}
                 <div className="absolute z-0 w-full h-full grid lg:grid-cols-2 gap-8 items-center">

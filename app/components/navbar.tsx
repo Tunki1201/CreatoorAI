@@ -13,7 +13,7 @@ const navigation = [
 const NavbarComponent = () => {
 
     return (
-        <div className="z-10 w-full max-w-[80%] items-center justify-between font-mono text-sm lg:flex px-6 pb-4">
+        <div className="z-10 w-full max-w-[90%] items-center justify-between font-mono text-sm lg:flex px-6 pb-4">
             <Link href="/">
                 <Image
                     style={{ width: "auto", height: "4rem", marginRight: "-0.25rem" }}

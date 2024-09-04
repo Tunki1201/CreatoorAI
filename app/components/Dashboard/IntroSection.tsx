@@ -12,7 +12,7 @@ import PersonImage8 from '@/public/assets/images/portraits/portrait_8.jpg'
 
 export default function IntroSectionComponent() {
     return (
-        <article className="rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-full max-w-[80%] gradient-bg lg:bg-none lg:bg-[#5169e4]">
+        <article className="rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-full max-w-[90%] gradient-bg lg:bg-none lg:bg-[#5169e4]">
             <div className="w-full relative border-x border-[#353e3b] md:px-8 py-[7.5%] grid lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                 {/* Decorative Background Dots */}
                 <section className="z-0 absolute w-full h-full col-span-2 grid grid-cols-2 place-content-between">

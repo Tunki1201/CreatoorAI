@@ -4,12 +4,12 @@ import EasyToUseImage from '@/public/assets/images/about/easy-to-use.avif'
 import CustomImage from '@/public/assets/images/about/customisable-templates.avif'
 import HighQuality from '@/public/assets/images/about/high-quality-exports.avif'
 import Link from "next/link";
-import LogoImage from '@/public/assets/images/about/logo.png'
+import LogoImage from '@/public/logo/Creatoor.svg'
 
 const ExpectComponent = () => {
 
     return (
-        <div className="content-visibility-auto text-neutral-dark rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-[80%] bg-[#5169e4] mt-24">
+        <div className="content-visibility-auto text-neutral-dark rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-[90%] bg-[#5169e4] mt-24">
             <div className="border-x border-[#353e3b]">
                 <div className="space-y-12 overflow-hidden border-x border-b rounded-b-xl border-[#353e3b] py-12 lg:py-24">
                     <div className="space-y-4">
@@ -42,7 +42,7 @@ const ExpectComponent = () => {
                 </div>
 
                 <div className="diagonal-pattern border-[#353e3b]">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 border border-[#353e3b] rounded-xl w-[90%] lg:w-[80%] mx-auto divide-y md:divide-x lg:divide-y-0 divide-[#353e3b]">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 border border-[#353e3b] rounded-xl w-[90%] lg:w-[90%] mx-auto divide-y md:divide-x lg:divide-y-0 divide-[#353e3b]">
 
                         <div className="bg-[#5169e4] px-5 py-7 rounded-t-xl md:rounded-l-xl md:rounded-bl-none lg:rounded-bl-xl md:rounded-tr-none">
                             <div className="relative w-full">
