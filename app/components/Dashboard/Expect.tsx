@@ -9,7 +9,7 @@ import LogoImage from '@/public/logo/Creatoor.svg'
 const ExpectComponent = () => {
 
     return (
-        <div className="content-visibility-auto text-neutral-dark rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-[90%] bg-[#5169e4] mt-24">
+        <div className="content-visibility-auto text-neutral-dark rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-[90%] xl:w-[80%] bg-[#5169e4] mt-24">
             <div className="border-x border-[#353e3b]">
                 <div className="space-y-12 overflow-hidden border-x border-b rounded-b-xl border-[#353e3b] py-12 lg:py-24">
                     <div className="space-y-4">
@@ -26,7 +26,7 @@ const ExpectComponent = () => {
                             </div>
                         </div>
                         <h2 className="text-white font-[&quot;Euclid_Circular_A&quot;] text-3xl lg:text-4xl xl:text-5xl text-center w-11/12 max-w-3xl text-pretty mx-auto">High Quality Videos within minutes</h2>
-                        <p className="text-center w-[90%] max-w-xl mx-auto text-balance">Scale your content creation without having to hire an expensive video editor. Enter a prompt and get a high quality Reel, Short, TikTok in just a few clicks.</p>
+                        <p className="text-center w-[90%] xl:w-[80%] max-w-xl mx-auto text-balance">Scale your content creation without having to hire an expensive video editor. Enter a prompt and get a high quality Reel, Short, TikTok in just a few clicks.</p>
                     </div>
                     <div className="flex items-center relative">
                         <div className="bg-white outline w-1/2 md:max-w-[300px] absolute hidden sm:block sm:-left-1/4 md:right-1/4 mx-auto outline-[6px] outline-[#636363]/25 rounded-xl object-cover">
@@ -42,7 +42,7 @@ const ExpectComponent = () => {
                 </div>
 
                 <div className="diagonal-pattern border-[#353e3b]">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 border border-[#353e3b] rounded-xl w-[90%] lg:w-[90%] mx-auto divide-y md:divide-x lg:divide-y-0 divide-[#353e3b]">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 border border-[#353e3b] rounded-xl w-[90%] xl:w-[80%] lg:w-[90%] xl:w-[80%] mx-auto divide-y md:divide-x lg:divide-y-0 divide-[#353e3b]">
 
                         <div className="bg-[#5169e4] px-5 py-7 rounded-t-xl md:rounded-l-xl md:rounded-bl-none lg:rounded-bl-xl md:rounded-tr-none">
                             <div className="relative w-full">
