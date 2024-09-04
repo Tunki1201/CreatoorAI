@@ -34,7 +34,7 @@ const HowItWorks = () => {
                             <span className="absolute blur-xl bg-white font-bold text-2xl font-[&quot;Euclid_Circular_A&quot;]">1</span>
                         </div>
                         <h4 className="text-white font-medium text-2xl font-[&quot;Euclid_Circular_A&quot;]">Enter your idea</h4>
-                        <p className="mt-4 mb-8 text-balance">AI will find the best content for you that you can easily repurpose into TikTok videos.</p>
+                        <p className="mt-4 mb-8 text-balance">Tell Creatoor your video concept, paste a link to a news article, blog, Linkedin post, and even Youtube link.</p>
                         <ul className="*:flex *:items-start *:space-x-1.5 space-y-4 lg:space-y-3 *:text-[#eafff2] *:text-sm">
                             <li>
                                 <div className="min-w-5 min-h-5">
@@ -90,9 +90,9 @@ const HowItWorks = () => {
                         </p>
                         <ul className="space-y-4 lg:space-y-3">
                             {[
-                                'Ask it what you want to talk about',
-                                'The AI will find relevant content to get inspired by',
-                                'Drop any link and it will be automatically parsed and formatted for a video',
+                                'Review the audio to your final video',
+                                'Pick your brand colors and theme',
+                                'Choose what version you like best and generate',
                             ].map((text, idx) => (
                                 <li key={idx} className="flex items-start space-x-1.5 text-[#eafff2] text-sm">
                                     <div className="min-w-5 min-h-5">
@@ -148,7 +148,7 @@ const HowItWorks = () => {
                             <span className="absolute blur-xl bg-white font-bold text-2xl font-[&quot;Euclid_Circular_A&quot;]">3</span>
                         </div>
                         <h4 className="text-white font-medium text-2xl font-[&quot;Euclid_Circular_A&quot;]">Download Your Video</h4>
-                        <p className="mt-4 mb-8 text-balance">Watch your video with automatically your avatar speaking your script along with automatically added subtitles, b-roll then download for posting.</p>
+                        <p className="mt-4 mb-8 text-balance">Watch your final fully edited video with branded subtitles, b-roll and download your desired format.</p>
                         <ul className="space-y-4 lg:space-y-3 text-[#eafff2] text-sm">
                             <li className="flex items-start space-x-1.5">
                                 <div className="min-w-5 min-h-5">

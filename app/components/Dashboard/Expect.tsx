@@ -4,7 +4,7 @@ import EasyToUseImage from '@/public/assets/images/about/easy-to-use.avif'
 import CustomImage from '@/public/assets/images/about/customisable-templates.avif'
 import HighQuality from '@/public/assets/images/about/high-quality-exports.avif'
 import Link from "next/link";
-import LogoImage from '@/public/logo/logo_full.svg'
+import LogoImage from '@/public/assets/images/about/logo.png'
 
 const ExpectComponent = () => {
 
@@ -117,9 +117,12 @@ const ExpectComponent = () => {
                         decoding="async"
                         src={LogoImage}
                     />
+                    <div className="w-1/2">
+                        <p className="text-neutral-dark text-gray-300 text-center">
+                            Create videos for social media with simple text prompts. Generate viral-worthy short form videos in minutes with no editing skills required.
+                        </p>
+                    </div>
 
-                    <p className="text-neutral-dark text-gray-300">Create videos for social media with simple text prompts. Generate viral-worthy short form videos in minutes with no editing skills required.
-                    </p>
                     <div className="w-fit mx-auto lg:mx-0 cursor-pointer">
                         <Link href="/login" className='flex cursor-pointer'>
                             <span className=" rounded-full border border-[#4bde81] p-1 cursor-pointer" style={{ boxShadow: '0 0 0 4px #ffffff24,0 0 0 1px #4bde81', background: 'linear-gradient(180deg,#a8ffc8,#4bde81)' }}>Clone Me Now</span>

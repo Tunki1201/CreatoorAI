@@ -13,7 +13,7 @@ import PersonImage8 from '@/public/assets/images/portraits/portrait_8.jpg'
 export default function IntroSectionComponent() {
     return (
         <article className="rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-full max-w-[80%] gradient-bg lg:bg-none lg:bg-[#5169e4]">
-            <div className="w-full relative border-x border-[#353e3b] md:px-8 py-[7.5%] grid lg:grid-cols-2 gap-8 xl:gap-8 items-start">
+            <div className="w-full relative border-x border-[#353e3b] md:px-8 py-[7.5%] grid lg:grid-cols-2 gap-8 xl:gap-16 items-start">
                 {/* Decorative Background Dots */}
                 <section className="z-0 absolute w-full h-full col-span-2 grid grid-cols-2 place-content-between">
                     <div className="bg-[#4BDE81] rounded-full w-1 h-1 my-8 outline outline-8 outline-[#171b1c]/60 lg:outline-[#171B1C] -mx-[2.5px]"></div>
@@ -24,9 +24,9 @@ export default function IntroSectionComponent() {
 
                 {/* Main Content Section */}
                 <section className="space-y-6 mt-12 lg:mt-0 lg:pl-8 flex-2">
-                    <h1 className="xl:min-w-[520px] text-4xl sm:text-[42px] xl:text-5xl 2xl:text-6xl lg:text-left leading-[50px] text-center font-[&quot;Euclid_Circular_A&quot;] text-white font-medium">
+                    <h1 className="text-4xl sm:text-[42px] xl:text-5xl 2xl:text-6xl lg:text-left leading-[50px] text-center font-[&quot;Euclid_Circular_A&quot;] text-white font-medium">
                         Create Viral Videos
-                        with Your AI<br/>
+                        with Your AI<br />
                         <span className="font-medium from-[#45EC82] from-[0.16%] via-[#7079F3] via-[47.81%] to-[#75CEFC] to-100% bg-gradient-to-r bg-clip-text text-transparent">Twin!
                         </span>
                     </h1>
@@ -93,7 +93,7 @@ export default function IntroSectionComponent() {
 
                             <article className="flex items-center flex-col w-full mt-10 space-y-2">
                                 <div className="mt-0 flex flex-col justify-center items-center">
-                                    <div className="flex gap-4 flex-col items-center md:flex-row md:items-end">
+                                    <div className="flex gap-4 flex-col items-center md:flex-col xl:flex-row md:items-end">
                                         <div className="mt-4 flex -space-x-1 children:h-10 children:w-10 children:rounded-full children:object-cover children:ring-2 children:ring-white">
                                             <Image
                                                 alt="user testimonial"
@@ -148,24 +148,6 @@ export default function IntroSectionComponent() {
                                                 decoding="async"
                                                 className='flex rounded-full'
                                                 src={PersonImage6}
-                                            />
-                                            <Image
-                                                alt="user testimonial"
-                                                fetchPriority="high"
-                                                width={40}
-                                                height={40}
-                                                className='flex rounded-full'
-                                                decoding="async"
-                                                src={PersonImage8}
-                                            />
-                                            <Image
-                                                alt="user testimonial"
-                                                fetchPriority="high"
-                                                width={40}
-                                                height={40}
-                                                decoding="async"
-                                                className='flex rounded-full'
-                                                src={PersonImage7}
                                             />
                                         </div>
                                         <div className="text-info text-sm italic">and 1,000+ others</div>
