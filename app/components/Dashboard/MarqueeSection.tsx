@@ -54,7 +54,7 @@ const MarqueeSection: React.FC = () => {
     ];
 
     return (
-        <section className="content-visibility-auto text-neutral-dark mt-24 relative flex w-[90%] xl:w-[80%] lg:w-[90%] justify-center items-center mx-auto">
+        <section className="content-visibility-auto text-neutral-dark mt-24 relative flex w-full xl:w-[80%] lg:w-[90%] justify-center items-center mx-auto">
             {/* Left Marquee */}
             <div className="relative w-[10%] lg:w-[50%] mr-auto space-y-2">
                 {marqueeItems.slice(0, 3).map((item, index) => (

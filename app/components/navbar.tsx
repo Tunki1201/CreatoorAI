@@ -13,7 +13,7 @@ const navigation = [
 const NavbarComponent = () => {
 
     return (
-        <div className="z-10 w-full max-w-[90%] xl:w-[80%] items-center justify-between font-mono text-sm lg:flex px-6 pb-4">
+        <div className="z-10 w-full xl:w-[80%] items-center justify-between font-mono text-sm lg:flex px-6 pb-4">
             <Link href="/">
                 <Image
                     style={{ width: "auto", height: "4rem", marginRight: "-0.25rem" }}
@@ -34,7 +34,7 @@ const NavbarComponent = () => {
                                 className={'flex text-gray-500 dark:text-[#32CD32] dark:hover:text-[#6bcd32] p-0 lg:pl-4 cursor-pointer underline-offset-2 hover:underline hover:underline-offset-4  decoration-gray-500'}
                                 aria-current={item.current ? 'page' : undefined}
                             >
-                                <span className={"flex items-center justify-center font-[&quot;Euclid_Circular_A&quot;] text-white font-medium"} style={{fontWeight:'600'}}>
+                                <span className={"flex items-center justify-center font-[&quot;Euclid_Circular_A&quot;] text-white font-medium"} style={{ fontWeight: '600' }}>
                                     {item.name}
                                 </span>
                             </a>

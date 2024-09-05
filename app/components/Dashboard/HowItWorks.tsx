@@ -9,7 +9,7 @@ import Link from "next/link";
 const HowItWorks = () => {
 
     return (
-        <section id="how-it-works" className="content-visibility-auto scroll-m-20 w-full max-w-[90%] xl:w-[80%] mt-24 space-y-8">
+        <section id="how-it-works" className="content-visibility-auto scroll-m-20 w-full xl:w-[80%] mt-24 space-y-8">
             <div className="space-y-4 mb-14">
                 <div className="mx-auto text-green-200 border border-[#c8eed6]/25 shadow-lg shadow-[#4add80]/10 w-fit font-medium text-sm rounded-full bg-gradient-to-b from-[#737b88]/20 to-[#191b1e]/20 p-[1.5px]">
                     <div className="bg-[#15171a]/50 flex items-center space-x-1 py-1 px-2 rounded-full">

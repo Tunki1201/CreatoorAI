@@ -9,7 +9,7 @@ import HDDownloadsImage from '@/public/assets/images/about/HDDownloads.jpg'
 const ExpectComponent = () => {
 
     return (
-        <div className="content-visibility-auto text-neutral-dark rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-[90%] xl:w-[80%] bg-[#5169e4] mt-24">
+        <div className="content-visibility-auto text-neutral-dark rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-full xl:w-[80%] bg-[#5169e4] mt-24">
             <div className="border-x border-[#353e3b]">
                 <div className="space-y-12 overflow-hidden border-x border-b rounded-b-xl border-[#353e3b] py-12 lg:py-24">
                     <div className="space-y-4">
