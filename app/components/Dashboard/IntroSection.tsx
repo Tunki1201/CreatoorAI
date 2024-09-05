@@ -148,7 +148,7 @@ export default function IntroSectionComponent() {
                                                 src={PersonImage6}
                                             />
                                         </div>
-                                        <div className="text-info text-sm italic">and 1,00+ others</div>
+                                        <div className="text-info text-sm italic">and 100+ others</div>
                                     </div>
                                 </div>
                             </article>

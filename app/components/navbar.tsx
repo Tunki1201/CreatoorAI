@@ -21,6 +21,9 @@ const NavbarComponent = () => {
                     alt="Creatoor Logo"
                     style={{ width: "auto" }}
                 />
+                {/* <span className="absolute bottom-[10px] right-[-16px] text-[0.5rem] sm:text-xs md:text-sm lg:text-base font-serif italic">
+                    beta
+                </span> */}
             </Link>
 
             <div className="hidden xl:block">

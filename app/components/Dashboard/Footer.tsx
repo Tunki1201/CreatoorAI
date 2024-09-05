@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import LogoImage from '@/public/logo/logo_full.svg'
+import LogoImage from '@/public/assets/images/about/logo.png'
 
 const Footer: React.FC = () => {
     return (
@@ -11,8 +11,8 @@ const Footer: React.FC = () => {
                         <Image
                             alt="revid.ai logo"
                             loading="lazy"
-                            width="154"
-                            height="30"
+                            width="60"
+                            height="60"
                             decoding="async"
                             data-nimg="1"
                             style={{ color: 'transparent' }}
