@@ -1,5 +1,3 @@
-// components/Footer.tsx
-
 import Image from 'next/image';
 import React from 'react';
 import LogoImage from '@/public/logo/logo_full.svg'
@@ -22,22 +20,17 @@ const Footer: React.FC = () => {
                         />
                         <p>Create viral short videos, fast.</p>
                     </div>
-                    <div className="flex w-full items-center md:items-end lg:items-center justify-center">
-                        <a className="text-[#feffff] font-semibold text-base" href='/product'>Product</a>
-                        <a className="hover:text-slate-200 ml-3" href="/pricing">Pricing</a>
-                        <a className="hover:text-slate-200 ml-3" href="/blog">Blog</a>
-                    </div>
-                  
+
                 </div>
                 <div className="flex flex-col-reverse md:flex-row justify-between">
                     <p className="text-neutral-dark mt-4 md:mt-0">
                         Maintained with 💚 by
                         <a className="underline ml-1" target="_blank" rel="noopener noreferrer" href="https://twitter.com/tibo_maker">Olumide</a>
-                        {/* - based on the
-                        <a className="underline ml-1 mr-1" target="_blank" rel="noopener noreferrer" href="https://www.typeframes.com">Typeframes</a>
-                        video editor */}
                     </p>
                     <div className="text-[#BEFFD6] underline underline-offset-2 space-x-3 ml-1">
+                        <a className="text-[#feffff] font-semibold text-base" href='/product'>Product</a>
+                        <a className="hover:text-slate-200 ml-3" href="/pricing">Pricing</a>
+                        <a className="hover:text-slate-200 ml-3" href="/blog">Blog</a>
                         <a href="/terms">Terms of Service</a>
                         <a href="/policy">Privacy Policy</a>
                     </div>
