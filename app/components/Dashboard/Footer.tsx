@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
                         />
                         <p>Create viral short videos, fast.</p>
                     </div>
-                    <div className="flex w-full ml-auto items-center md:items-end lg:items-center justify-center">
+                    <div className="flex w-full items-center md:items-end lg:items-center justify-center">
                         <a className="text-[#feffff] font-semibold text-base" href='/product'>Product</a>
                         <a className="hover:text-slate-200 ml-3" href="/pricing">Pricing</a>
                         <a className="hover:text-slate-200 ml-3" href="/blog">Blog</a>
