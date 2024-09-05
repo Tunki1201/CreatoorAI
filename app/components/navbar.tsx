@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import LogoImage from '@/public/logo/logo_full.svg'
+import LogoImage from '@/public/assets/images/about/logo.png'
 import { Button } from "antd";
 
 const navigation = [
@@ -14,13 +14,12 @@ const NavbarComponent = () => {
 
     return (
         <div className="z-10 w-full xl:w-[80%] items-center justify-between font-mono text-sm lg:flex px-6 pb-4">
-            <Link href="/">
+            <Link href="/" className="relative flex items-center">
                 <Image
-                    style={{ width: "auto", height: "4rem", marginRight: "-0.25rem" }}
+                    className="sm:h-8 md:h-10 lg:h-12 xl:h-16"
                     src={LogoImage}
-                    alt="Commune Logo"
-                    width={64}
-                    height={64}
+                    alt="Creatoor Logo"
+                    style={{ width: "auto" }}
                 />
             </Link>
 
