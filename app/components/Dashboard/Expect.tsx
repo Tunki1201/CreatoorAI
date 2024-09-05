@@ -117,7 +117,7 @@ const ExpectComponent = () => {
                         decoding="async"
                         src={LogoImage}
                     />
-                    <p className="text-neutral-dark text-gray-300 text-center w-1/2 mb-1">
+                    <p className="text-neutral-dark text-gray-300 text-center w-1/2 mb-3">
                         Create videos for social media with simple text prompts. Generate viral-worthy short form videos in minutes with no editing skills required.
                     </p>
                     <div className="w-fit mx-auto lg:mx-0 cursor-pointer">
