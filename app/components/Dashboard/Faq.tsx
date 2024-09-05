@@ -21,7 +21,7 @@ const FAQSection: React.FC = () => {
         {
             question: "How does Creatoor AI improve content creation?",
             answer:
-                "Creatoor AI is your secret weapon for creating compelling videos with AI Avatars in minutes. Our AI-powered platform analyzes trending content to craft scripts and generate stunning visuals optimized for maximum impact. Whether you're creating product demos, explainer videos, or social media content, Creatoor AI helps you produce professional-quality videos that captivate your audience, all from simple text prompts.",
+                "Creatoor AI is your secret weapon for creating compelling videos with AI Avatars in minutes. Our AI-powered platform analyzes trending content to craft scripts and generate stunning visuals optimized for maximum impact. Whether you're creating social media content, educational videos, workplace training, product demos, or explainer videos. Creatoor AI helps you produce professional-quality videos that captivate your audience, all from simple text prompts.",
         },
         {
             question: 'Is Creatoor AI suitable for beginners?',

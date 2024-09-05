@@ -7,8 +7,6 @@ import PersonImage3 from '@/public/assets/images/portraits/portrait_3.jpg'
 import PersonImage4 from '@/public/assets/images/portraits/portrait_4.jpg'
 import PersonImage5 from '@/public/assets/images/portraits/portrait_5.jpg'
 import PersonImage6 from '@/public/assets/images/portraits/portrait_6.jpg'
-import PersonImage7 from '@/public/assets/images/portraits/portrait_7.jpg'
-import PersonImage8 from '@/public/assets/images/portraits/portrait_8.jpg'
 
 export default function IntroSectionComponent() {
     return (
@@ -150,7 +148,7 @@ export default function IntroSectionComponent() {
                                                 src={PersonImage6}
                                             />
                                         </div>
-                                        <div className="text-info text-sm italic">and 1,000+ others</div>
+                                        <div className="text-info text-sm italic">and 1,00+ others</div>
                                     </div>
                                 </div>
                             </article>
