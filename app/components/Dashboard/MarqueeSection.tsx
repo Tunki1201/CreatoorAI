@@ -112,7 +112,7 @@ const MarqueeSection: React.FC = () => {
                 </p>
                 <div className="w-fit mx-auto lg:mx-0 cursor-pointer">
                     <Link href="/login" className='flex cursor-pointer'>
-                        <span className=" rounded-full border border-[#4bde81]  p-1 cursor-pointer" style={{ boxShadow: '0 0 0 4px #ffffff24,0 0 0 1px #4bde81', background: 'linear-gradient(180deg,#a8ffc8,#4bde81)' }}>Start Creating Now</span>
+                        <span className=" rounded-full border border-[#4bde81]  p-1 cursor-pointer" style={{ boxShadow: '0 0 0 4px #ffffff24,0 0 0 1px #4bde81', background: 'linear-gradient(180deg,#a8ffc8,#4bde81)' }}>Clone Me Now</span>
                     </Link>
                 </div>
             </div>
