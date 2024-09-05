@@ -33,9 +33,9 @@ const Footer: React.FC = () => {
                     <p className="text-neutral-dark mt-4 md:mt-0">
                         Maintained with 💚 by
                         <a className="underline ml-1" target="_blank" rel="noopener noreferrer" href="https://twitter.com/tibo_maker">Olumide</a>
-                        - based on the
+                        {/* - based on the
                         <a className="underline ml-1 mr-1" target="_blank" rel="noopener noreferrer" href="https://www.typeframes.com">Typeframes</a>
-                        video editor
+                        video editor */}
                     </p>
                     <div className="text-[#BEFFD6] underline underline-offset-2 space-x-3 ml-1">
                         <a href="/terms">Terms of Service</a>

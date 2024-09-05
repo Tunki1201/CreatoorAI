@@ -3,7 +3,7 @@ import React from "react";
 import TTVSearhImage from '@/public/assets/images/about/tth_search.avif'
 import TTVScriptImage from '@/public/assets/images/about/tth_script.avif'
 import TTVEditorImage from '@/public/assets/images/about/tth_editor.avif'
-import LogoImage from '@/public/logo/logo_full.svg'
+import LogoImage from '@/public/assets/images/about/logo.png'
 import Link from "next/link";
 
 const HowItWorks = () => {
@@ -196,12 +196,12 @@ const HowItWorks = () => {
                 </div>
             </div>
 
-            <div className="mx-auto flex flex-col items-center space-y-4 py-8">
+            <div className="mx-auto flex flex-col items-center space-y-4">
                 <Image
                     alt="creator.ai logo"
                     loading="lazy"
-                    width={154}
-                    height={30}
+                    width={80}
+                    height={50}
                     decoding="async"
                     src={LogoImage}
                 />

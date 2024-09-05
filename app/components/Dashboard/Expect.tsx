@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import LogoImage from '@/public/logo/Creatoor.svg'
+import LogoImage from '@/public/assets/images/about/logo.png'
 import CloneYourSelfImage from '@/public/assets/images/about/Clone.jpg'
 import CustomVideoStyleImage from '@/public/assets/images/about/VideoStyle.jpg'
 import HDDownloadsImage from '@/public/assets/images/about/HDDownloads.jpg'
@@ -108,21 +108,18 @@ const ExpectComponent = () => {
                     </div>
                 </div>
 
-                <div className="border-x border-t rounded-t-xl border-[#353e3b] mx-auto flex flex-col items-center space-y-5 py-12 lg:py-24">
+                <div className="border-x border-t rounded-t-xl border-[#353e3b] mx-auto flex flex-col items-center space-y-2 py-4 lg:pb-12">
                     <Image
                         alt="creator.ai logo"
                         loading="lazy"
-                        width={154}
-                        height={30}
+                        width={90}
+                        height={10}
                         decoding="async"
                         src={LogoImage}
                     />
-                    <div className="w-1/2">
-                        <p className="text-neutral-dark text-gray-300 text-center">
-                            Create videos for social media with simple text prompts. Generate viral-worthy short form videos in minutes with no editing skills required.
-                        </p>
-                    </div>
-
+                    <p className="text-neutral-dark text-gray-300 text-center w-1/2">
+                        Create videos for social media with simple text prompts. Generate viral-worthy short form videos in minutes with no editing skills required.
+                    </p>
                     <div className="w-fit mx-auto lg:mx-0 cursor-pointer">
                         <Link href="/login" className='flex cursor-pointer'>
                             <span className=" rounded-full border border-[#4bde81] p-1 cursor-pointer" style={{ boxShadow: '0 0 0 4px #ffffff24,0 0 0 1px #4bde81', background: 'linear-gradient(180deg,#a8ffc8,#4bde81)' }}>Clone Me Now</span>
