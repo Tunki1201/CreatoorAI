@@ -22,39 +22,13 @@ const Footer: React.FC = () => {
                         />
                         <p>Create viral short videos, fast.</p>
                     </div>
-                    <div className="flex flex-col space-y-4 items-start md:items-end lg:items-start">
-                        <h3 className="text-[#feffff] font-semibold mb-2 text-base">Product</h3>
-                        <a className="hover:text-slate-200" href="/pricing">Pricing</a>
-                        <a className="hover:text-slate-200" href="/blog">Blog</a>
-                        <a className="hover:text-slate-200" href="mailto:hello@typeframes.com">Contact us</a>
-                        <a className="hover:text-slate-200" href="/find-tiktok-creators">Find TikTok Influencers</a>
-                        <a className="hover:text-slate-200" href="/tiktok-script-generator">TikTok Script Generator</a>
-                        <a className="hover:text-slate-200" href="/youtube-short-script-generator">Youtube Shorts Script Generator</a>
-                        <a className="hover:text-slate-200" href="/ai-script-generator">AI Script Generator</a>
+                    <div className="flex w-full ml-auto items-center md:items-end lg:items-center justify-center">
+                        <a className="text-[#feffff] font-semibold text-base" href='/product'>Product</a>
+                        <a className="hover:text-slate-200 ml-3" href="/pricing">Pricing</a>
+                        <a className="hover:text-slate-200 ml-3" href="/blog">Blog</a>
                     </div>
-                    <div className="flex flex-col space-y-4">
-                        <h3 className="text-[#feffff] font-semibold mb-2 text-base">Solutions</h3>
-                        <a className="hover:text-slate-200" target="_blank" rel="noopener noreferrer" href="https://documenter.getpostman.com/view/36975521/2sA3kPo4BR">API</a>
-                        <a className="hover:text-slate-200" target="_blank" rel="noopener noreferrer" href="/affiliates">Become an Affiliate</a>
-                    </div>
-                    <div className="md:col-span-2 flex flex-col space-y-4 items-start md:items-end lg:items-start">
-                        <h3 className="text-[#feffff] font-semibold mb-2 text-base">Free Tools</h3>
-                        <a className="hover:text-slate-200" href="/tools/ai-tiktok-video-generator">TikTok Video Generator: Create Videos from Any Content</a>
-                        <a className="hover:text-slate-200" href="/tools/caption-generator">AI Video Captioner: Add Subtitles to Videos Automatically</a>
-                        <a className="hover:text-slate-200" href="/tools/youtube-clip-maker">YouTube Clip Maker: Create Short Clips from Long Videos</a>
-                        <a className="hover:text-slate-200" href="/tools/talking-avatar">AI Talking Avatar: Create Realistic Talking Avatar Videos</a>
-                        <a className="hover:text-slate-200" href="/tools/face-swap">AI Face Swap: Create Realistic Talking Avatars</a>
-                        <a className="hover:text-slate-200" href="/tools/cartoonify-tweet">Pixar-Style Cartoon Narration for Tweets</a>
-                        <a className="hover:text-slate-200" href="/tools/create-website-review-video">Create A Website Review Video</a>
-                        <a className="hover:text-slate-200" href="/tools/ai-movie-maker">AI Movie Maker: Create Studio-Quality Videos from Text</a>
-                        <a className="hover:text-slate-200" href="/tools/audio-to-video">Audio to Video: Convert Sound into Dynamic MP4 Content</a>
-                        <a className="hover:text-slate-200" href="/tools/ai-music-video-generator">Music to Video: Create Cinematic Visuals from Songs</a>
-                        <a className="hover:text-slate-200" href="/tools/add-comments-to-video">Add comments to your silent video</a>
-                        <a className="hover:text-slate-200" href="/tools/reddit-post-to-video">Turn a Reddit post into a Video</a>
-                        <a className="hover:text-slate-200" href="/tools/twitter-video-tool">Tweet to Video: Create Videos From Twitter Posts Instantly</a>
-                    </div>
+                  
                 </div>
-                <div className="h-px bg-gradient-to-tr from-white/0 from-25% via-white/25 to-white/0 to-75%"></div>
                 <div className="flex flex-col-reverse md:flex-row justify-between">
                     <p className="text-neutral-dark mt-4 md:mt-0">
                         Maintained with 💚 by
