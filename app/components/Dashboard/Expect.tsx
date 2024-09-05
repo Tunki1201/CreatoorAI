@@ -108,7 +108,7 @@ const ExpectComponent = () => {
                     </div>
                 </div>
 
-                <div className="border-x border-t rounded-t-xl border-[#353e3b] mx-auto flex flex-col items-center space-y-2 py-4 lg:pb-12">
+                <div className="border-x border-t rounded-t-xl border-[#353e3b] mx-auto flex flex-col items-center space-y-1 py-4 lg:pb-12">
                     <Image
                         alt="creator.ai logo"
                         loading="lazy"
