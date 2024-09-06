@@ -35,14 +35,14 @@ const Navbar = () => {
             </div>
             <nav
                 id="navlinks"
-                className={` ${isOpen ? 'bg-[#506bf5] p-2 rounded-xl shadow-xl shadow-gray-500 flex w-[90%] md:flex-col md:bg-transparent md:shadow-none md:opacity-100' : 'hidden w-full text-[#BEC0C7] text-base font-medium md:flex gap-8 transition-all duration-300 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none'
+                className={` ${isOpen ? 'bg-[#506bf5] p-2 rounded-xl shadow-xl shadow-gray-500 flex w-[90%] md:flex-col md:bg-transparent md:shadow-none md:opacity-100' : 'hidden w-full text-white text-base font-medium md:flex gap-8 transition-all duration-300 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none'
                     }`}
             >
                 <ul className={`flex md:flex md:items-center md:justify-center md:ml-auto ${isOpen ? ' flex-col justify-start text-white' : 'items-center justify-center ml-auto'} `}>
-                    <li className=" decoration-gray-500 hover:bg-white/[0.06] pr-2 hover:underline hover:underline-offset-4">
+                    <li className=" hover:bg-white/[0.06] pr-2">
                         <Link href="/#how-it-works">What is Creatoor</Link>
                     </li>
-                    <li className=" decoration-gray-500 hover:bg-white/[0.06] pr-2 hover:underline hover:underline-offset-4 pt-2 md:pt-0">
+                    <li className=" hover:bg-white/[0.06] pr-2 pt-2 md:pt-0">
                         <Link href="/tiktok-videos">Blog</Link>
                     </li>
 
