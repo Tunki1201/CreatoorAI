@@ -6,7 +6,7 @@ import YoutubeImage from '@/public/assets/images/about/youtube.avif'
 
 export default function ToolsSection() {
     return (
-        <article className="mt-8 content-visibility-auto relative text-neutral-dark rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-[90%] xl:w-[80%] bg-[#5169e4] mb-6">
+        <article className="mt-8 content-visibility-auto relative text-neutral-dark rounded-lg px-4 sm:px-6 md:px-8 border border-[#252629] w-full xl:w-[80%] bg-[#5169e4] mb-6">
             <div className="h-px w-full bg-[#353e3b] top-4 sm:top-6 md:top-8 absolute -z-0 left-0"></div>
             <div className="h-px w-full bg-[#353e3b] bottom-4 sm:bottom-6 md:bottom-8 absolute z-0 left-0"></div>
             <div className="w-full relative border-x border-[#353e3b]">
