@@ -34,9 +34,12 @@ export default function IntroSectionComponent() {
                         <p>Our advanced AI seamlessly transforms your ideas into premium, polished videos.</p>
                         <p>Automatic subtitles and b-roll added so you can get to posting across social media.</p>
                     </div>
-                    <div className="w-fit mx-auto lg:mx-0 cursor-pointer">
+                    <div className="mx-auto lg:mx-0 cursor-pointer">
                         <Link href="/login" className='flex cursor-pointer'>
-                            <span className=" rounded-full border border-[#4bde81] p-1 cursor-pointer" style={{ boxShadow: '0 0 0 4px #ffffff24,0 0 0 1px #4bde81', background: 'linear-gradient(180deg,#a8ffc8,#4bde81)' }}>Try Free Now</span>
+                            <span
+                                className=" rounded-full border border-[#4bde81] p-1 cursor-pointer hover:shadow-2xl"
+                                style={{ boxShadow: '0 0 0 4px #ffffff24,0 0 0 1px #4bde81', background: 'linear-gradient(180deg,#a8ffc8,#4bde81)' }}>Try Free Now
+                            </span>
                         </Link>
                     </div>
                     <div className="space-y-5 flex flex-col items-center lg:items-start">
