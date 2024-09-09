@@ -208,7 +208,28 @@ const HowItWorks = () => {
                 />
                 <p className="text-neutral-dark text-gray-300 mb-2">Clone yourself. Create viral videos.</p>
                 <div className="w-fit mx-auto lg:mx-0 cursor-pointer">
-                    c
+                    <Link href="/login" className="flex cursor-pointer">
+                        <span
+                            style={{
+                                borderRadius: '9999px', // full round
+                                border: '1px solid #4bde81',
+                                padding: '0.25rem', // equivalent to p-1
+                                cursor: 'pointer',
+                                transition: 'box-shadow 0.3s ease-in-out',
+                                background: 'linear-gradient(180deg, #a8ffc8, #4bde81)',
+                                boxShadow: '0 0 0 4px rgba(255, 255, 255, 0.15), 0 0 0 1px #4bde81',
+                            }}
+                            // Applying hover styles using mouse events
+                            onMouseEnter={(e) => {
+                                e.currentTarget.style.boxShadow = '0 4px 8px rgba(75, 222, 129, 0.7), 0 0 0 4px rgba(255, 255, 255, 0.15), 0 0 0 1px #4bde81';
+                            }}
+                            onMouseLeave={(e) => {
+                                e.currentTarget.style.boxShadow = '0 0 0 4px rgba(255, 255, 255, 0.15), 0 0 0 1px #4bde81';
+                            }}
+                        >
+                            Clone Me Now
+                        </span>
+                    </Link>
                 </div>
             </div>
 
