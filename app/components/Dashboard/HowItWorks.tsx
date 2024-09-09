@@ -221,7 +221,7 @@ const HowItWorks = () => {
                             }}
                             // Applying hover styles using mouse events
                             onMouseEnter={(e) => {
-                                e.currentTarget.style.boxShadow = '0 4px 8px rgba(75, 222, 129, 0.7), 0 0 0 4px rgba(255, 255, 255, 0.15), 0 0 0 1px #4bde81';
+                                e.currentTarget.style.boxShadow = '0 4px 16px rgba(75, 222, 129, 0.7), 0 0 0 4px rgba(255, 255, 255, 0.15), 0 0 0 1px #4bde81';
                             }}
                             onMouseLeave={(e) => {
                                 e.currentTarget.style.boxShadow = '0 0 0 4px rgba(255, 255, 255, 0.15), 0 0 0 1px #4bde81';
