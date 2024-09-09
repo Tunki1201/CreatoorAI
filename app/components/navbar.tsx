@@ -11,7 +11,7 @@ const Navbar = () => {
     const toggleMenu = () => setIsOpen(!isOpen);
 
     return (
-        <div className=" w-full flex flex-col md:flex-row items-center justify-between bg-[#6981fd] pb-8 px-8">
+        <div className=" w-full flex flex-col md:flex-row items-center justify-between bg-[#6981fd] pb-8">
             <div className="px-4 w-full flex items-center justify-between h-16"> {/* Adjust height as needed */}
                 <Link href="/">
                     <Image
