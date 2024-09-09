@@ -35,14 +35,14 @@ const Navbar = () => {
             </div>
             <nav
                 id="navlinks"
-                className={` ${isOpen ? 'bg-[#506bf5] p-2 rounded-xl shadow-xl shadow-gray-500 flex w-[90%] md:flex-col md:bg-transparent md:shadow-none md:opacity-100' : 'hidden w-full text-white text-base font-medium md:flex gap-8 transition-all duration-300 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none'
+                className={` ${isOpen ? 'bg-[#506bf5] p-2 rounded-xl shadow-xl shadow-gray-500 flex w-[90%] md:flex-col md:bg-transparent md:shadow-none md:opacity-100' : 'hidden w-full text-white text-base font-medium md:flex gap-8 transition-all duration-300'
                     }`}
             >
                 <ul className={`flex md:flex md:items-center md:justify-center md:ml-auto ${isOpen ? ' flex-col justify-start text-white' : 'items-center justify-center ml-auto'} `}>
-                    <li className=" hover:bg-white/[0.06] p-2 mr-2 rounded-xl flex items-center justify-center">
+                    <li className=" hover:bg-white/[0.06] p-2 mr-2 rounded-xl">
                         <Link href="/#how-it-works">What is Creatoor</Link>
                     </li>
-                    <li className=" hover:bg-white/[0.06] p-2 mr-2 rounded-xl flex items-center justify-center">
+                    <li className=" hover:bg-white/[0.06] p-2 mr-2 rounded-xl">
                         <Link href="/tiktok-videos">Blog</Link>
                     </li>
 
