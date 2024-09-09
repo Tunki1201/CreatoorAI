@@ -31,13 +31,13 @@ const ExpectComponent = () => {
                     </div>
                     <div className=" hidden lg:flex items-center relative">
                         <div className="bg-white outline w-1/2 md:max-w-[300px] absolute hidden sm:block sm:-left-1/4 md:right-1/4 mx-auto outline-[6px] outline-[#636363]/25 rounded-xl object-cover">
-                            <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" src="/video/3.mp4" poster="/images/poster_landing.jpg" preload="none" width="100%" height="100%" data-xblocker="passed" />
+                            <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" src="/video/3.mp4" width="100%" height="100%" data-xblocker="passed" />
                         </div>
                         <div className="bg-white outline w-5/6 md:w-3/4 md:max-w-[450px] relative z-10 mx-auto outline-[6px] outline-[#636363]/25 rounded-xl object-cover">
-                            <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" src="/video/3.mp4" poster="/images/poster_landing.jpg" preload="none" width="100%" height="100%" data-xblocker="passed" />
+                            <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" src="/video/3.mp4" width="100%" height="100%" data-xblocker="passed" />
                         </div>
                         <div className="bg-white outline w-1/2 md:max-w-[300px] absolute hidden sm:block sm:-right-1/4 md:left-1/4 -z-0 mx-auto outline-[6px] outline-[#636363]/25 rounded-xl object-cover">
-                            <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" src="/video/3.mp4" poster="/images/poster_landing.jpg" preload="none" width="100%" height="100%" data-xblocker="passed" />
+                            <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" src="/video/3.mp4" width="100%" height="100%" data-xblocker="passed" />
                         </div>
                     </div>
                 </div>

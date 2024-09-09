@@ -179,13 +179,13 @@ export default function IntroSectionComponent() {
                 {/* Video Section */}
                 <div className="h-[400px] hidden lg:flex items-center relative">
                     <div className="bg-white outline w-1/2 md:max-w-[180px] absolute sm:-left-1/4 md:right-1/4 mx-auto outline-[6px] outline-[#636363]/25 rounded-xl object-cover">
-                        <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" playsInline loop src="/video/3.mp4" preload="none" width="100%" height="100%" style={{ visibility: 'visible' }} autoPlay />
+                        <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" playsInline loop src="/video/3.mp4" width="100%" height="100%" style={{ visibility: 'visible' }} autoPlay />
                     </div>
                     <div className="bg-white outline w-5/6 md:w-3/4 md:max-w-[260px] relative z-10 mx-auto outline-[6px] outline-[#636363]/25 rounded-xl object-cover">
-                        <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" playsInline loop src="/video/3.mp4" preload="none" autoPlay width="100%" height="100%" style={{ visibility: 'visible' }} />
+                        <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" playsInline loop src="/video/3.mp4" autoPlay width="100%" height="100%" style={{ visibility: 'visible' }} />
                     </div>
                     <div className="bg-white outline w-1/2 md:max-w-[180px] absolute sm:-right-1/4 md:left-1/4 -z-0 mx-auto outline-[6px] outline-[#636363]/25 rounded-xl object-cover">
-                        <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" playsInline loop src="/video/3.mp4" preload="none" width="100%" height="100%" style={{ visibility: 'visible' }} autoPlay />
+                        <video className="content-visibility-auto bg-white shadow-2xl rounded-[13px] border border-base-200" playsInline loop src="/video/3.mp4" width="100%" height="100%" style={{ visibility: 'visible' }} autoPlay />
                     </div>
                 </div>
             </div>
