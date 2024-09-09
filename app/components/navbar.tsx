@@ -39,10 +39,10 @@ const Navbar = () => {
                     }`}
             >
                 <ul className={`flex md:flex md:items-center md:justify-center md:ml-auto ${isOpen ? ' flex-col justify-start text-white' : 'items-center justify-center ml-auto'} `}>
-                    <li className=" hover:bg-white/[0.06] pr-2">
+                    <li className=" hover:bg-white/[0.06] p-2 mr-2 rounded-xl flex items-center justify-center">
                         <Link href="/#how-it-works">What is Creatoor</Link>
                     </li>
-                    <li className=" hover:bg-white/[0.06] pr-2 pt-2 md:pt-0">
+                    <li className=" hover:bg-white/[0.06] p-2 mr-2 rounded-xl flex items-center justify-center">
                         <Link href="/tiktok-videos">Blog</Link>
                     </li>
 
