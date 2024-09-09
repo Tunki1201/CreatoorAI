@@ -55,7 +55,7 @@ const MarqueeSection: React.FC = () => {
     ];
 
     return (
-        <section className="content-visibility-auto text-neutral-dark mt-24 relative flex w-full xl:w-[80%] lg:w-[90%] justify-center items-center mx-auto">
+        <section className="content-visibility-auto text-neutral-dark mt-24 relative flex w-full   lg:w-[90%] justify-center items-center mx-auto">
             {/* Left Marquee */}
             <div className="relative w-[10%] lg:w-[50%] mr-auto space-y-2">
                 {marqueeItems.slice(0, 3).map((item, index) => (
@@ -104,7 +104,7 @@ const MarqueeSection: React.FC = () => {
             </div>
 
             {/* Center Content */}
-            <div className="space-y-5 py-4 flex flex-col items-center w-[90%] xl:w-[80%] lg:w-full border-x border-[#1a1b1e]">
+            <div className="space-y-5 py-4 flex flex-col items-center w-[90%]   lg:w-full border-x border-[#1a1b1e]">
                 <h2 className="text-white text-3xl lg:text-4xl xl:text-5xl text-center w-11/12 text-balance mx-auto">
                     Scale Your Personal Brand Infinitely
                 </h2>
